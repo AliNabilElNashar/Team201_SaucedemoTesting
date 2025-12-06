@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-current.dtd">
-<suite name="Team 201 - Saucedemo Test Suite" verbose="2">
 
-    <test name="Login Tests" enabled="true">
-        <classes>
-            <class name="com.saucedemo.tests.login.ValidLoginTests"/>
-            <class name="com.saucedemo.tests.login.InvalidLoginTests"/>
-            <class name="com.saucedemo.tests.login.EmptyFieldsTests"/>
-            <class name="com.saucedemo.tests.login.LockedUserTests"/>
-            <class name="com.saucedemo.tests.login.SpecialUsersTests"/>
-        </classes>
-    </test>
-
-</suite>
